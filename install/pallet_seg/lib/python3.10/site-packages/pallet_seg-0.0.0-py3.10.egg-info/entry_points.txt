@@ -1,3 +1,0 @@
-[console_scripts]
-solo_detect_all = pallet_seg.solo_detect_all:main
-

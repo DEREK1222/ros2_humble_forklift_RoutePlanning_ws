@@ -1,0 +1,59 @@
+[0.047s] Invoking command in '/home/derek/work/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_costmap_2d/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/derek/work/build/nav2_collision_monitor -- -j16 -l16
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target collision_monitor_core[0m
+[0.095s] [  8%] Built target gtest_main
+[0.101s] [ 17%] Built target gtest
+[0.125s] [ 56%] Built target collision_monitor_core
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target collision_monitor_node_test[0m
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target collision_monitor[0m
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target sources_test[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target kinematics_test[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target polygons_test[0m
+[0.153s] [ 65%] Built target collision_monitor
+[0.156s] [ 73%] Built target collision_monitor_node_test
+[0.157s] [ 82%] Built target kinematics_test
+[0.157s] [ 91%] Built target sources_test
+[0.159s] [100%] Built target polygons_test
+[0.169s] Invoked command in '/home/derek/work/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_costmap_2d/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/derek/work/build/nav2_collision_monitor -- -j16 -l16
+[0.662s] Invoking command in '/home/derek/work/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_costmap_2d/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/derek/work/build/nav2_collision_monitor
+[0.669s] -- Install configuration: "Release"
+[0.670s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/lib/libcollision_monitor_core.so
+[0.670s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor
+[0.670s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/include/
+[0.670s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/include//nav2_collision_monitor
+[0.671s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/include//nav2_collision_monitor/circle.hpp
+[0.671s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon.hpp
+[0.671s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/include//nav2_collision_monitor/pointcloud.hpp
+[0.672s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/include//nav2_collision_monitor/types.hpp
+[0.672s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/include//nav2_collision_monitor/range.hpp
+[0.672s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/include//nav2_collision_monitor/scan.hpp
+[0.672s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_monitor_node.hpp
+[0.673s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/include//nav2_collision_monitor/source.hpp
+[0.673s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/include//nav2_collision_monitor/kinematics.hpp
+[0.673s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/launch
+[0.673s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_monitor_node.launch.py
+[0.673s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/params
+[0.675s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_monitor_params.yaml
+[0.675s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.sh
+[0.675s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.dsv
+[0.675s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/ament_index/resource_index/package_run_dependencies/nav2_collision_monitor
+[0.676s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/ament_index/resource_index/parent_prefix_path/nav2_collision_monitor
+[0.676s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.sh
+[0.676s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.dsv
+[0.676s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.sh
+[0.677s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.dsv
+[0.677s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.bash
+[0.678s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.sh
+[0.679s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.zsh
+[0.679s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.dsv
+[0.680s] -- Installing: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/package.dsv
+[0.683s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/ament_index/resource_index/packages/nav2_collision_monitor
+[0.684s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/ament_index/resource_index/rclcpp_components/nav2_collision_monitor
+[0.684s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.684s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[0.684s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.684s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig.cmake
+[0.684s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig-version.cmake
+[0.684s] -- Up-to-date: /home/derek/work/install/nav2_collision_monitor/share/nav2_collision_monitor/package.xml
+[0.745s] Invoked command in '/home/derek/work/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_costmap_2d/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/derek/work/build/nav2_collision_monitor

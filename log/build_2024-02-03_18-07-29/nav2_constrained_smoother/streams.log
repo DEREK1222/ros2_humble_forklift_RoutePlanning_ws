@@ -1,0 +1,104 @@
+[0.289s] Invoking command in '/home/derek/work/build/nav2_constrained_smoother': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_core:/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_core:/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_costmap_2d/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/derek/work/src/navigation2/nav2_constrained_smoother -DCMAKE_INSTALL_PREFIX=/home/derek/work/install/nav2_constrained_smoother
+[0.339s] -- The C compiler identification is GNU 11.4.0
+[0.399s] -- The CXX compiler identification is GNU 11.4.0
+[0.409s] -- Detecting C compiler ABI info
+[0.478s] -- Detecting C compiler ABI info - done
+[0.490s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.491s] -- Detecting C compile features
+[0.491s] -- Detecting C compile features - done
+[0.491s] -- Detecting CXX compiler ABI info
+[0.581s] -- Detecting CXX compiler ABI info - done
+[0.590s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.590s] -- Detecting CXX compile features
+[0.591s] -- Detecting CXX compile features - done
+[0.595s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.221s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.329s] -- Found nav2_core: 1.1.13 (/home/derek/work/install/nav2_core/share/nav2_core/cmake)
+[1.392s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.399s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.411s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.433s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.564s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.580s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.730s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.768s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.837s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.852s] -- Looking for pthread.h
+[1.940s] -- Looking for pthread.h - found
+[1.941s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.036s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.038s] -- Found Threads: TRUE  
+[3.712s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.712s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.055s] -- Found nav2_common: 1.1.13 (/home/derek/work/install/nav2_common/share/nav2_common/cmake)
+[6.064s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[6.071s] -- Found required Ceres dependency: glog
+[6.072s] -- Found required Ceres dependency: gflags
+[6.072s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[11.983s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.075s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[29.969s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[29.969s] -- Configured cppcheck include dirs: /home/derek/work/src/navigation2/nav2_constrained_smoother/include
+[29.969s] -- Configured cppcheck exclude dirs and/or files: 
+[29.971s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[29.971s] -- Configured cpplint exclude dirs and/or files: 
+[29.972s] -- Added test 'lint_cmake' to check CMake code style
+[29.980s] -- Added test 'uncrustify' to check C / C++ code style
+[29.980s] -- Configured uncrustify additional arguments: 
+[29.981s] -- Added test 'xmllint' to check XML markup files
+[29.990s] -- Configuring done
+[30.327s] -- Generating done
+[30.342s] -- Build files have been written to: /home/derek/work/build/nav2_constrained_smoother
+[30.398s] Invoked command in '/home/derek/work/build/nav2_constrained_smoother' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_core:/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_core:/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_costmap_2d/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/derek/work/src/navigation2/nav2_constrained_smoother -DCMAKE_INSTALL_PREFIX=/home/derek/work/install/nav2_constrained_smoother
+[30.398s] Invoking command in '/home/derek/work/build/nav2_constrained_smoother': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_core:/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_core:/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_costmap_2d/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/derek/work/build/nav2_constrained_smoother -- -j16 -l16
+[43.879s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_constrained_smoother.dir/src/constrained_smoother.cpp.o[0m
+[45.601s] [ 20%] [32m[1mLinking CXX shared library libnav2_constrained_smoother.so[0m
+[45.956s] [ 20%] Built target nav2_constrained_smoother
+[45.978s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[53.107s] [ 40%] [32m[1mLinking CXX static library libgtest.a[0m
+[53.138s] [ 40%] Built target gtest
+[53.156s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[54.087s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[54.122s] [ 60%] Built target gtest_main
+[54.145s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_constrained_smoother.dir/test_constrained_smoother.cpp.o[0m
+[68.767s] [ 80%] [32m[1mLinking CXX executable test_constrained_smoother[0m
+[69.221s] [ 80%] Built target test_constrained_smoother
+[69.245s] [ 90%] [32mBuilding CXX object test/CMakeFiles/test_smoother_cost_function.dir/test_smoother_cost_function.cpp.o[0m
+[78.434s] [100%] [32m[1mLinking CXX executable test_smoother_cost_function[0m
+[78.793s] [100%] Built target test_smoother_cost_function
+[78.808s] Invoked command in '/home/derek/work/build/nav2_constrained_smoother' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_core:/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_core:/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_costmap_2d/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/derek/work/build/nav2_constrained_smoother -- -j16 -l16
+[78.837s] Invoking command in '/home/derek/work/build/nav2_constrained_smoother': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_core:/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_core:/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_costmap_2d/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/derek/work/build/nav2_constrained_smoother
+[78.845s] -- Install configuration: "Release"
+[78.845s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/lib/libnav2_constrained_smoother.so
+[78.845s] -- Set runtime path of "/home/derek/work/install/nav2_constrained_smoother/lib/libnav2_constrained_smoother.so" to ""
+[78.845s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/include/
+[78.845s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/include//nav2_constrained_smoother
+[78.845s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/include//nav2_constrained_smoother/options.hpp
+[78.846s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/include//nav2_constrained_smoother/smoother_cost_function.hpp
+[78.846s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/include//nav2_constrained_smoother/utils.hpp
+[78.846s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/include//nav2_constrained_smoother/constrained_smoother.hpp
+[78.846s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/include//nav2_constrained_smoother/smoother.hpp
+[78.846s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/library_path.sh
+[78.846s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/library_path.dsv
+[78.846s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/nav2_constrained_smoother.xml
+[78.846s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_constrained_smoother
+[78.846s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_constrained_smoother
+[78.847s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/ament_prefix_path.sh
+[78.847s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/ament_prefix_path.dsv
+[78.847s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/path.sh
+[78.847s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/path.dsv
+[78.847s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.bash
+[78.847s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.sh
+[78.847s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.zsh
+[78.847s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.dsv
+[78.847s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/package.dsv
+[78.848s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/ament_index/resource_index/packages/nav2_constrained_smoother
+[78.848s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_constrained_smoother
+[78.848s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[78.848s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[78.848s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[78.848s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/nav2_constrained_smootherConfig.cmake
+[78.849s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/nav2_constrained_smootherConfig-version.cmake
+[78.849s] -- Installing: /home/derek/work/install/nav2_constrained_smoother/share/nav2_constrained_smoother/package.xml
+[78.851s] Invoked command in '/home/derek/work/build/nav2_constrained_smoother' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_core:/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_core:/home/derek/work/install/nav2_costmap_2d:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_costmap_2d/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/derek/work/build/nav2_constrained_smoother

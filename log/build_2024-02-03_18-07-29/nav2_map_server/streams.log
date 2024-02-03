@@ -1,0 +1,160 @@
+[0.116s] Invoking command in '/home/derek/work/build/nav2_map_server': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/derek/work/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/derek/work/install/nav2_map_server
+[0.157s] -- The C compiler identification is GNU 11.4.0
+[0.202s] -- The CXX compiler identification is GNU 11.4.0
+[0.208s] -- Detecting C compiler ABI info
+[0.262s] -- Detecting C compiler ABI info - done
+[0.271s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.271s] -- Detecting C compile features
+[0.272s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.340s] -- Detecting CXX compiler ABI info - done
+[0.347s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.347s] -- Detecting CXX compile features
+[0.347s] -- Detecting CXX compile features - done
+[0.350s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.813s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.885s] -- Found nav2_common: 1.1.13 (/home/derek/work/install/nav2_common/share/nav2_common/cmake)
+[0.887s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.925s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.929s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.937s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.965s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.027s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.029s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.118s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.152s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.201s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.210s] -- Looking for pthread.h
+[1.273s] -- Looking for pthread.h - found
+[1.273s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.335s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.336s] -- Found Threads: TRUE  
+[1.482s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.520s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.581s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.696s] -- Found nav2_msgs: 1.1.13 (/home/derek/work/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.886s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.891s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[1.898s] -- Found nav2_util: 1.1.13 (/home/derek/work/install/nav2_util/share/nav2_util/cmake)
+[2.111s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.112s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.112s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.290s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[2.291s] -- Setting build type to Release as none was specified.
+[4.823s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.920s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.926s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.932s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.940s] -- Configured cppcheck include dirs: /home/derek/work/src/navigation2/nav2_map_server/include
+[4.940s] -- Configured cppcheck exclude dirs and/or files: 
+[4.943s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.943s] -- Configured cpplint exclude dirs and/or files: 
+[4.943s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.944s] -- Added test 'lint_cmake' to check CMake code style
+[4.945s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.946s] -- Added test 'uncrustify' to check C / C++ code style
+[4.947s] -- Configured uncrustify additional arguments: 
+[4.947s] -- Added test 'xmllint' to check XML markup files
+[4.949s] -- Configuring done
+[5.317s] -- Generating done
+[5.321s] -- Build files have been written to: /home/derek/work/build/nav2_map_server
+[5.346s] Invoked command in '/home/derek/work/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/derek/work/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/derek/work/install/nav2_map_server
+[5.347s] Invoking command in '/home/derek/work/build/nav2_map_server': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/derek/work/build/nav2_map_server -- -j16 -l16
+[5.406s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.407s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.408s] [  8%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[5.410s] [ 11%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[6.509s] [ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.536s] [ 13%] Built target gtest_main
+[10.883s] [ 16%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[11.045s] [ 16%] Built target map_io
+[11.065s] [ 19%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[11.065s] [ 22%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[11.067s] [ 25%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[11.067s] [ 27%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[11.071s] [ 30%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[12.367s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[12.400s] [ 33%] Built target gtest
+[12.423s] [ 36%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[12.424s] [ 38%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[12.424s] [ 41%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[12.424s] [ 44%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[16.408s] [ 47%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[16.745s] [ 47%] Built target test_map_saver_publisher
+[17.750s] [ 50%] [32m[1mLinking CXX executable test_map_io[0m
+[18.095s] [ 50%] Built target test_map_io
+[19.890s] [ 52%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[20.002s] [ 52%] Built target test_map_saver_cli
+[22.103s] [ 55%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[22.364s] [ 55%] Built target map_server_core
+[22.383s] [ 58%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[22.384s] [ 61%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[22.384s] [ 63%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[22.385s] [ 66%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[22.386s] [ 69%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[22.386s] [ 72%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[22.387s] [ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[22.388s] [ 77%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[22.389s] [ 80%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[25.074s] [ 83%] [32m[1mLinking CXX executable map_server[0m
+[25.350s] [ 83%] Built target map_server
+[25.584s] [ 86%] [32m[1mLinking CXX executable map_saver_cli[0m
+[25.871s] [ 86%] Built target map_saver_cli
+[25.931s] [ 88%] [32m[1mLinking CXX executable map_saver_server[0m
+[26.052s] [ 91%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[26.257s] [ 91%] Built target map_saver_server
+[26.316s] [ 91%] Built target costmap_filter_info_server
+[27.421s] [ 94%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[27.652s] [ 94%] Built target test_map_saver_node
+[28.190s] [ 97%] [32m[1mLinking CXX executable test_map_server_node[0m
+[28.373s] [ 97%] Built target test_map_server_node
+[32.348s] [100%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[32.645s] [100%] Built target test_costmap_filter_info_server
+[32.654s] Invoked command in '/home/derek/work/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/derek/work/build/nav2_map_server -- -j16 -l16
+[32.693s] Invoking command in '/home/derek/work/build/nav2_map_server': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/derek/work/build/nav2_map_server
+[32.699s] -- Install configuration: "Release"
+[32.699s] -- Installing: /home/derek/work/install/nav2_map_server/lib/libmap_server_core.so
+[32.700s] -- Set runtime path of "/home/derek/work/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[32.700s] -- Installing: /home/derek/work/install/nav2_map_server/lib/libmap_io.so
+[32.700s] -- Set runtime path of "/home/derek/work/install/nav2_map_server/lib/libmap_io.so" to ""
+[32.701s] -- Installing: /home/derek/work/install/nav2_map_server/lib/nav2_map_server/map_server
+[32.701s] -- Set runtime path of "/home/derek/work/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[32.701s] -- Installing: /home/derek/work/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[32.701s] -- Set runtime path of "/home/derek/work/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[32.701s] -- Installing: /home/derek/work/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[32.701s] -- Set runtime path of "/home/derek/work/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[32.701s] -- Installing: /home/derek/work/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[32.702s] -- Set runtime path of "/home/derek/work/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+[32.702s] -- Installing: /home/derek/work/install/nav2_map_server/include/
+[32.702s] -- Installing: /home/derek/work/install/nav2_map_server/include//nav2_map_server
+[32.702s] -- Installing: /home/derek/work/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[32.702s] -- Installing: /home/derek/work/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[32.702s] -- Installing: /home/derek/work/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[32.702s] -- Installing: /home/derek/work/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[32.702s] -- Installing: /home/derek/work/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[32.702s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/launch
+[32.702s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[32.702s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[32.702s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[32.702s] -- Installing: /home/derek/work/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[32.703s] -- Installing: /home/derek/work/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[32.703s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[32.703s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[32.703s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[32.703s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[32.703s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[32.703s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[32.703s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[32.703s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[32.703s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/package.dsv
+[32.703s] -- Installing: /home/derek/work/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[32.704s] -- Installing: /home/derek/work/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[32.704s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.704s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[32.704s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.704s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[32.704s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[32.704s] -- Installing: /home/derek/work/install/nav2_map_server/share/nav2_map_server/package.xml
+[32.706s] Invoked command in '/home/derek/work/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/derek/work/build/nav2_map_server

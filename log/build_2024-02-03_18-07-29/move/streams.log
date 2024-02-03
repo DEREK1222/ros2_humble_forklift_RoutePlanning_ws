@@ -1,0 +1,29 @@
+[0.760s] Invoking command in '/home/derek/work/src/move': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_msgs LD_LIBRARY_PATH=/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/build/move/prefix_override:/home/derek/work/install/move/lib/python3.10/site-packages:/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move build --build-base /home/derek/work/build/move/build install --record /home/derek/work/build/move/install.log --single-version-externally-managed
+[0.947s] running egg_info
+[0.947s] creating ../../build/move/move.egg-info
+[0.948s] writing manifest file '../../build/move/move.egg-info/SOURCES.txt'
+[0.949s] writing manifest file '../../build/move/move.egg-info/SOURCES.txt'
+[0.949s] running build
+[0.949s] running build_py
+[0.949s] creating /home/derek/work/build/move/build
+[0.949s] creating /home/derek/work/build/move/build/lib
+[0.949s] creating /home/derek/work/build/move/build/lib/move
+[0.949s] copying move/__init__.py -> /home/derek/work/build/move/build/lib/move
+[0.949s] running install
+[0.950s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.950s]   warnings.warn(
+[0.950s] running install_lib
+[0.951s] creating /home/derek/work/install/move/lib/python3.10/site-packages/move
+[0.951s] copying /home/derek/work/build/move/build/lib/move/__init__.py -> /home/derek/work/install/move/lib/python3.10/site-packages/move
+[0.951s] byte-compiling /home/derek/work/install/move/lib/python3.10/site-packages/move/__init__.py to __init__.cpython-310.pyc
+[0.951s] running install_data
+[0.952s] creating /home/derek/work/install/move/share/ament_index
+[0.952s] creating /home/derek/work/install/move/share/ament_index/resource_index
+[0.952s] creating /home/derek/work/install/move/share/ament_index/resource_index/packages
+[0.952s] copying resource/move -> /home/derek/work/install/move/share/ament_index/resource_index/packages
+[0.952s] copying package.xml -> /home/derek/work/install/move/share/move
+[0.952s] running install_egg_info
+[0.953s] Copying ../../build/move/move.egg-info to /home/derek/work/install/move/lib/python3.10/site-packages/move-0.0.0-py3.10.egg-info
+[0.953s] running install_scripts
+[0.967s] writing list of installed files to '/home/derek/work/build/move/install.log'
+[0.989s] Invoked command in '/home/derek/work/src/move' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_msgs LD_LIBRARY_PATH=/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/build/move/prefix_override:/home/derek/work/install/move/lib/python3.10/site-packages:/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move build --build-base /home/derek/work/build/move/build install --record /home/derek/work/build/move/install.log --single-version-externally-managed

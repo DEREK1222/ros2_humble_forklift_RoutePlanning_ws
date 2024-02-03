@@ -1,0 +1,15 @@
+running egg_info
+warning: no files found matching 'mmdet/VERSION'
+warning: no files found matching 'mmdet/.mim/demo/*/*'
+writing manifest file '../../build/mmdet/mmdet.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_egg_info
+removing '/home/derek/work/install/mmdet/lib/python3.10/site-packages/mmdet-2.28.2-py3.10.egg-info' (and everything under it)
+Copying ../../build/mmdet/mmdet.egg-info to /home/derek/work/install/mmdet/lib/python3.10/site-packages/mmdet-2.28.2-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/derek/work/build/mmdet/install.log'

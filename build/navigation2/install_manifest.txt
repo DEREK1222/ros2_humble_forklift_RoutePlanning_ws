@@ -1,0 +1,15 @@
+/home/derek/work/install/navigation2/share/ament_index/resource_index/package_run_dependencies/navigation2
+/home/derek/work/install/navigation2/share/ament_index/resource_index/parent_prefix_path/navigation2
+/home/derek/work/install/navigation2/share/navigation2/environment/ament_prefix_path.sh
+/home/derek/work/install/navigation2/share/navigation2/environment/ament_prefix_path.dsv
+/home/derek/work/install/navigation2/share/navigation2/environment/path.sh
+/home/derek/work/install/navigation2/share/navigation2/environment/path.dsv
+/home/derek/work/install/navigation2/share/navigation2/local_setup.bash
+/home/derek/work/install/navigation2/share/navigation2/local_setup.sh
+/home/derek/work/install/navigation2/share/navigation2/local_setup.zsh
+/home/derek/work/install/navigation2/share/navigation2/local_setup.dsv
+/home/derek/work/install/navigation2/share/navigation2/package.dsv
+/home/derek/work/install/navigation2/share/ament_index/resource_index/packages/navigation2
+/home/derek/work/install/navigation2/share/navigation2/cmake/navigation2Config.cmake
+/home/derek/work/install/navigation2/share/navigation2/cmake/navigation2Config-version.cmake
+/home/derek/work/install/navigation2/share/navigation2/package.xml

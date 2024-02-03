@@ -1,0 +1,75 @@
+[0.808s] Invoking command in '/home/derek/work/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_msgs LD_LIBRARY_PATH=/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/build/nav2_simple_commander/prefix_override:/home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages:/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/derek/work/build/nav2_simple_commander/build install --record /home/derek/work/build/nav2_simple_commander/install.log --single-version-externally-managed
+[0.985s] running egg_info
+[0.986s] creating ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[0.986s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[0.988s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[0.988s] running build
+[0.988s] running build_py
+[0.988s] creating /home/derek/work/build/nav2_simple_commander/build
+[0.989s] creating /home/derek/work/build/nav2_simple_commander/build/lib
+[0.989s] creating /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.989s] copying nav2_simple_commander/example_follow_path.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.989s] copying nav2_simple_commander/demo_picking.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.989s] copying nav2_simple_commander/example_assisted_teleop.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.989s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.989s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.989s] copying nav2_simple_commander/demo_security.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.989s] copying nav2_simple_commander/__init__.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.989s] copying nav2_simple_commander/demo_recoveries.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.989s] copying nav2_simple_commander/demo_inspection.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.990s] copying nav2_simple_commander/line_iterator.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.990s] copying nav2_simple_commander/costmap_2d.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.990s] copying nav2_simple_commander/robot_navigator.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.990s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.990s] running install
+[0.990s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.990s]   warnings.warn(
+[0.991s] running install_lib
+[0.991s] creating /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.991s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.991s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.992s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_assisted_teleop.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.992s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.992s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.992s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.992s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.992s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.992s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.992s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/line_iterator.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.993s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.993s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.993s] copying /home/derek/work/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.993s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[0.993s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[0.993s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_assisted_teleop.py to example_assisted_teleop.cpython-310.pyc
+[0.993s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[0.994s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[0.995s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[0.995s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[0.995s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[0.995s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[0.995s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/line_iterator.py to line_iterator.cpython-310.pyc
+[0.996s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-310.pyc
+[0.996s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[0.999s] byte-compiling /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[0.999s] running install_data
+[1.000s] creating /home/derek/work/install/nav2_simple_commander/share/ament_index
+[1.000s] creating /home/derek/work/install/nav2_simple_commander/share/ament_index/resource_index
+[1.000s] creating /home/derek/work/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.000s] copying resource/nav2_simple_commander -> /home/derek/work/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.000s] copying package.xml -> /home/derek/work/install/nav2_simple_commander/share/nav2_simple_commander
+[1.000s] copying launch/security_demo_launch.py -> /home/derek/work/install/nav2_simple_commander/share/nav2_simple_commander
+[1.000s] copying launch/follow_path_example_launch.py -> /home/derek/work/install/nav2_simple_commander/share/nav2_simple_commander
+[1.000s] copying launch/assisted_teleop_example_launch.py -> /home/derek/work/install/nav2_simple_commander/share/nav2_simple_commander
+[1.000s] copying launch/nav_to_pose_example_launch.py -> /home/derek/work/install/nav2_simple_commander/share/nav2_simple_commander
+[1.000s] copying launch/nav_through_poses_example_launch.py -> /home/derek/work/install/nav2_simple_commander/share/nav2_simple_commander
+[1.000s] copying launch/warehouse.world -> /home/derek/work/install/nav2_simple_commander/share/nav2_simple_commander
+[1.000s] copying launch/inspection_demo_launch.py -> /home/derek/work/install/nav2_simple_commander/share/nav2_simple_commander
+[1.000s] copying launch/recoveries_example_launch.py -> /home/derek/work/install/nav2_simple_commander/share/nav2_simple_commander
+[1.000s] copying launch/picking_demo_launch.py -> /home/derek/work/install/nav2_simple_commander/share/nav2_simple_commander
+[1.000s] copying launch/waypoint_follower_example_launch.py -> /home/derek/work/install/nav2_simple_commander/share/nav2_simple_commander
+[1.000s] running install_egg_info
+[1.001s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[1.002s] running install_scripts
+[1.017s] writing list of installed files to '/home/derek/work/build/nav2_simple_commander/install.log'
+[1.074s] Invoked command in '/home/derek/work/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_msgs LD_LIBRARY_PATH=/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/build/nav2_simple_commander/prefix_override:/home/derek/work/install/nav2_simple_commander/lib/python3.10/site-packages:/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/derek/work/build/nav2_simple_commander/build install --record /home/derek/work/build/nav2_simple_commander/install.log --single-version-externally-managed

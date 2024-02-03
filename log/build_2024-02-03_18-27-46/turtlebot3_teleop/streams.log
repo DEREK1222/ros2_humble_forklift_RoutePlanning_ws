@@ -1,0 +1,16 @@
+[2.956s] Invoking command in '/home/derek/work/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/derek/work/build/turtlebot3_teleop/prefix_override:/home/derek/work/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/derek/work/build/turtlebot3_teleop/build install --record /home/derek/work/build/turtlebot3_teleop/install.log --single-version-externally-managed
+[3.204s] running egg_info
+[3.209s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[3.210s] running build
+[3.210s] running build_py
+[3.210s] running install
+[3.210s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.210s]   warnings.warn(
+[3.211s] running install_lib
+[3.212s] running install_data
+[3.213s] running install_egg_info
+[3.215s] removing '/home/derek/work/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.1.5-py3.10.egg-info' (and everything under it)
+[3.215s] Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/derek/work/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.1.5-py3.10.egg-info
+[3.216s] running install_scripts
+[3.238s] writing list of installed files to '/home/derek/work/build/turtlebot3_teleop/install.log'
+[3.543s] Invoked command in '/home/derek/work/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/derek/work/build/turtlebot3_teleop/prefix_override:/home/derek/work/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/derek/work/build/turtlebot3_teleop/build install --record /home/derek/work/build/turtlebot3_teleop/install.log --single-version-externally-managed

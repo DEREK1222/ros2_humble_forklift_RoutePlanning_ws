@@ -1,0 +1,5 @@
+[console_scripts]
+test_1 = move.test_1:main
+test_2 = move.test_2:main
+test_3 = move.test_3:main
+

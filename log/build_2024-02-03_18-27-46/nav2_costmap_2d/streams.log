@@ -1,0 +1,130 @@
+[0.051s] Invoking command in '/home/derek/work/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_map_server:/home/derek/work/install/nav2_lifecycle_manager:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_map_server:/home/derek/work/install/nav2_lifecycle_manager:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_map_server/lib:/home/derek/work/install/nav2_lifecycle_manager/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/derek/work/build/nav2_costmap_2d -- -j16 -l16
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_core[0m
+[0.109s] [  2%] Built target gtest_main
+[0.109s] [  4%] Built target gtest
+[0.148s] [ 21%] Built target nav2_costmap_2d_core
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target costmap_filter_test[0m
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target copy_window_test[0m
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target costmap_convesion_test[0m
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target collision_footprint_test[0m
+[0.164s] [35m[1mConsolidate compiler generated dependencies of target declare_parameter_test[0m
+[0.164s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_cloud[0m
+[0.164s] [35m[1mConsolidate compiler generated dependencies of target array_parser_test[0m
+[0.164s] [35m[1mConsolidate compiler generated dependencies of target dyn_params_tests[0m
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target costmap_bresenham_2d[0m
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_markers[0m
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target costmap_filter_service_test[0m
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target filters[0m
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_client[0m
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target order_layer[0m
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target layers[0m
+[0.180s] [35m[1mConsolidate compiler generated dependencies of target plugin_api_order[0m
+[0.185s] [ 26%] Built target costmap_convesion_test
+[0.186s] [ 26%] Built target copy_window_test
+[0.186s] [ 29%] Built target array_parser_test
+[0.186s] [ 31%] Built target costmap_bresenham_2d
+[0.186s] [ 34%] Built target nav2_costmap_2d_cloud
+[0.187s] [ 36%] Built target nav2_costmap_2d_markers
+[0.189s] [ 39%] Built target costmap_filter_test
+[0.189s] [ 41%] Built target costmap_filter_service_test
+[0.189s] [ 43%] Built target declare_parameter_test
+[0.189s] [ 46%] Built target collision_footprint_test
+[0.190s] [ 48%] Built target order_layer
+[0.191s] [ 51%] Built target dyn_params_tests
+[0.192s] [ 56%] Built target filters
+[0.193s] [ 60%] Built target nav2_costmap_2d_client
+[0.199s] [ 63%] Built target plugin_api_order
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target speed_filter_test[0m
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target binary_filter_test[0m
+[0.203s] [35m[1mConsolidate compiler generated dependencies of target keepout_filter_test[0m
+[0.208s] [ 73%] Built target layers
+[0.219s] [35m[1mConsolidate compiler generated dependencies of target denoise_layer_test[0m
+[0.220s] [35m[1mConsolidate compiler generated dependencies of target footprint_tests_exec[0m
+[0.220s] [35m[1mConsolidate compiler generated dependencies of target test_collision_checker_exec[0m
+[0.221s] [ 75%] Built target binary_filter_test
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d[0m
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target obstacle_tests_exec[0m
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target inflation_tests_exec[0m
+[0.221s] [ 78%] Built target keepout_filter_test
+[0.222s] [35m[1mConsolidate compiler generated dependencies of target range_tests_exec[0m
+[0.223s] [ 80%] Built target speed_filter_test
+[0.242s] [ 82%] Built target nav2_costmap_2d
+[0.242s] [ 85%] Built target test_collision_checker_exec
+[0.242s] [ 90%] Built target denoise_layer_test
+[0.243s] [ 95%] Built target range_tests_exec
+[0.243s] [ 95%] Built target obstacle_tests_exec
+[0.243s] [ 97%] Built target footprint_tests_exec
+[0.244s] [100%] Built target inflation_tests_exec
+[0.292s] Invoked command in '/home/derek/work/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_map_server:/home/derek/work/install/nav2_lifecycle_manager:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_map_server:/home/derek/work/install/nav2_lifecycle_manager:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_map_server/lib:/home/derek/work/install/nav2_lifecycle_manager/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/derek/work/build/nav2_costmap_2d -- -j16 -l16
+[0.370s] Invoking command in '/home/derek/work/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_map_server:/home/derek/work/install/nav2_lifecycle_manager:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_map_server:/home/derek/work/install/nav2_lifecycle_manager:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_map_server/lib:/home/derek/work/install/nav2_lifecycle_manager/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/derek/work/build/nav2_costmap_2d
+[0.377s] -- Install configuration: "Release"
+[0.377s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[0.377s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/lib/liblayers.so
+[0.377s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/lib/libfilters.so
+[0.378s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[0.378s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[0.378s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[0.378s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[0.379s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[0.379s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include/
+[0.379s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d
+[0.379s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+[0.379s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+[0.379s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+[0.379s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+[0.379s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+[0.379s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise_layer.hpp
+[0.379s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise/image_processing.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise/image.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+[0.380s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/binary_filter.hpp
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/filter_values.hpp
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+[0.381s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[0.382s] -- Installing: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[0.382s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[0.383s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.383s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+[0.383s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.383s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[0.383s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[0.383s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[0.383s] -- Up-to-date: /home/derek/work/install/nav2_costmap_2d/lib/liborder_layer.so
+[0.384s] Invoked command in '/home/derek/work/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_map_server:/home/derek/work/install/nav2_lifecycle_manager:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_map_server:/home/derek/work/install/nav2_lifecycle_manager:/home/derek/work/install/nav2_util:/home/derek/work/install/nav2_voxel_grid:/home/derek/work/install/nav2_msgs:/home/derek/work/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/derek/work/install/nav2_map_server/lib:/home/derek/work/install/nav2_lifecycle_manager/lib:/home/derek/work/install/nav2_util/lib:/home/derek/work/install/nav2_voxel_grid/lib:/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/derek/work/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/derek/work/build/nav2_costmap_2d

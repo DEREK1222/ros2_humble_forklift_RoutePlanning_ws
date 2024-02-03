@@ -1,0 +1,17 @@
+[3.649s] Invoking command in '/home/derek/work/src/mmdetection2': PYTHONPATH=/home/derek/work/build/mmdet/prefix_override:/home/derek/work/install/mmdet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mmdet build --build-base /home/derek/work/build/mmdet/build install --record /home/derek/work/build/mmdet/install.log --single-version-externally-managed
+[4.886s] running egg_info
+[4.896s] warning: no files found matching 'mmdet/VERSION'
+[4.896s] warning: no files found matching 'mmdet/.mim/demo/*/*'
+[4.924s] writing manifest file '../../build/mmdet/mmdet.egg-info/SOURCES.txt'
+[4.924s] running build
+[4.925s] running build_py
+[4.980s] running install
+[4.981s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.981s]   warnings.warn(
+[4.981s] running install_lib
+[5.019s] running install_egg_info
+[5.019s] removing '/home/derek/work/install/mmdet/lib/python3.10/site-packages/mmdet-2.28.2-py3.10.egg-info' (and everything under it)
+[5.019s] Copying ../../build/mmdet/mmdet.egg-info to /home/derek/work/install/mmdet/lib/python3.10/site-packages/mmdet-2.28.2-py3.10.egg-info
+[5.020s] running install_scripts
+[5.048s] writing list of installed files to '/home/derek/work/build/mmdet/install.log'
+[5.508s] Invoked command in '/home/derek/work/src/mmdetection2' returned '0': PYTHONPATH=/home/derek/work/build/mmdet/prefix_override:/home/derek/work/install/mmdet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mmdet build --build-base /home/derek/work/build/mmdet/build install --record /home/derek/work/build/mmdet/install.log --single-version-externally-managed

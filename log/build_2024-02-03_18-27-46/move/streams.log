@@ -1,0 +1,16 @@
+[0.919s] Invoking command in '/home/derek/work/src/move': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_msgs LD_LIBRARY_PATH=/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/build/move/prefix_override:/home/derek/work/install/move/lib/python3.10/site-packages:/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move build --build-base /home/derek/work/build/move/build install --record /home/derek/work/build/move/install.log --single-version-externally-managed
+[1.185s] running egg_info
+[1.188s] writing manifest file '../../build/move/move.egg-info/SOURCES.txt'
+[1.188s] running build
+[1.188s] running build_py
+[1.188s] running install
+[1.188s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.188s]   warnings.warn(
+[1.189s] running install_lib
+[1.190s] running install_data
+[1.190s] running install_egg_info
+[1.192s] removing '/home/derek/work/install/move/lib/python3.10/site-packages/move-0.0.0-py3.10.egg-info' (and everything under it)
+[1.192s] Copying ../../build/move/move.egg-info to /home/derek/work/install/move/lib/python3.10/site-packages/move-0.0.0-py3.10.egg-info
+[1.193s] running install_scripts
+[1.221s] writing list of installed files to '/home/derek/work/build/move/install.log'
+[1.516s] Invoked command in '/home/derek/work/src/move' returned '0': AMENT_PREFIX_PATH=/home/derek/work/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/derek/work/install/nav2_msgs LD_LIBRARY_PATH=/home/derek/work/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/derek/work/build/move/prefix_override:/home/derek/work/install/move/lib/python3.10/site-packages:/home/derek/work/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move build --build-base /home/derek/work/build/move/build install --record /home/derek/work/build/move/install.log --single-version-externally-managed

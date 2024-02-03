@@ -1,0 +1,14 @@
+running egg_info
+writing manifest file '../../build/pallet_seg/pallet_seg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/pallet_seg/pallet_seg.egg-info to /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/derek/work/build/pallet_seg/install.log'

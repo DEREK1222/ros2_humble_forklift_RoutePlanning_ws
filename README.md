@@ -42,5 +42,5 @@ ros2 launch turtlebot3_bringup robot.launch.py  or  ros2 launch turtlebot3_bring
 ##### 您需要一張想要在 Turtlebot 3 中導航的環境地圖，或使用 SLAM 建立一個即時環境地圖。
 ##### 如果您有興趣，這裡有一個用例教程，展示如何將 Nav2 與 SLAM 結合使用。
 ##### 所需文件：
-* 'your-map.map'
+* `your-map.map`
 

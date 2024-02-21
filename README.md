@@ -18,7 +18,5 @@ export TURTLEBOT3_MODEL=waffle
 
 ### 辨識佔板 BUG 修復：
 ```
-source /opt/ros/<ros2-distro>/setup.bash
-source /usr/share/gazebo/setup.bash
-export TURTLEBOT3_MODEL=waffle
+sudo pip uninstall matplotlib
 ```

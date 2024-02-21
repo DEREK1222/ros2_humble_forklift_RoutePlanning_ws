@@ -34,7 +34,7 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
 ros2 run turtlebot3_teleop teleop_keyboard   //效果：可以控制車子移動
 ```
-### 使用實體 Turtlebot 進行導航
+### 使用實體Turtlebot進行導航
 #### 1.啟動 Turtlebot3：
 ```
 ros2 launch turtlebot3_bringup robot.launch.py  or  ros2 launch turtlebot3_bringup robot.launch.py  use_sim_time:=False

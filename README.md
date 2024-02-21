@@ -58,4 +58,9 @@ ros2 run rviz2 rviz2 -d $(ros2 pkg prefix nav2_bringup)/share/nav2_bringup/rviz/
 ##### 現在，您應該在 Rviz 的繪圖中心看到 Turtlebot3 機器人模型的影子。如果將 auto_start 參數設為 false，請按一下「開始」按鈕（左下角）。然後，地圖應出現在 RViz 中。
 #### 4.初始化 Turtlebot3 的位置：
 ##### 首先，找到機器人在地圖上的位置。檢查你的機器人在房間裡的位置。在 RViz 中設置機器人的位姿。點擊 2D Pose Estimate 按鈕並在地圖上指出機器人的位置。綠色箭頭的方向是Turtlebot 的方向。
+#### 5.發送目標姿勢：
+##### 在地圖上為 Turtlebot 選擇目標位置。您可以使用Nav2 Goal或GoalTool按鈕向 Turtlebot 3 發送目標位置和目標方向。
+##### 注意：Nav2 Goal 按鈕使用 ROS 2 Action 發送目標，GoalTool 將目標發佈到主題。
+
+
 

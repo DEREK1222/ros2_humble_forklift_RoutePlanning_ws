@@ -28,3 +28,7 @@ sudo pip uninstall matplotlib
 ```
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
 ```
+#### 2.在另一個終端機執行：
+```
+ros2 run turtlebot3_teleop teleop_keyboard   效果：可以控制車子移動
+```

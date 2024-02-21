@@ -3,6 +3,7 @@ README
 
 # 目錄
   * [環境設置](#環境設置)
+  * [使用說明](#使用說明)
 
 # 環境設置
 ### 設定關鍵環境變數：
@@ -21,3 +22,4 @@ export TURTLEBOT3_MODEL=waffle
 ```
 sudo pip uninstall matplotlib
 ```
+# 使用說明

@@ -5,7 +5,7 @@ README
   * [環境設置](#環境設置)
   * [使用說明](#使用說明)
     * [在gazebo模擬](#在gazebo模擬)
-    * [使用實體Turtlebot進行導航](#使用實體 Turtlebot 進行導航)
+    * [使用實體Turtlebot進行導航](#使用實體Turtlebot進行導航)
 
 # 環境設置
 ### 設定關鍵環境變數：

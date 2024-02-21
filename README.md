@@ -16,6 +16,7 @@ export TURTLEBOT3_MODEL=waffle
 | ------------- | ------------- |
 | Ubuntu 22.04  | ROS2 Humble  |
 
+
 ### 辨識佔板 BUG 修復：
 ```
 sudo pip uninstall matplotlib

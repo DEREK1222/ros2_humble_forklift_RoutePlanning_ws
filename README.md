@@ -15,3 +15,5 @@ export TURTLEBOT3_MODEL=waffle
 | 作業系統  | ROS2 |
 | ------------- | ------------- |
 | Ubuntu 22.04  | ROS2 Humble  |
+
+### 辨識佔板 BUG 修復：

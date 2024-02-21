@@ -23,3 +23,8 @@ export TURTLEBOT3_MODEL=waffle
 sudo pip uninstall matplotlib
 ```
 # 使用說明
+### 在gazebo模擬：
+1.執行gazebo模擬世界：
+```
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+```

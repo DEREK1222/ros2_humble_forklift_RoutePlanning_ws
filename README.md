@@ -43,4 +43,19 @@ ros2 launch turtlebot3_bringup robot.launch.py  or  ros2 launch turtlebot3_bring
 ##### 如果您有興趣，這裡有一個用例教程，展示如何將 Nav2 與 SLAM 結合使用。
 ##### 所需文件：
 * `your-map.map`
+* `your-map.yaml`
+
+##### 啟動導航2:如果設定autostart:=False，則需要點選RViz中的啟動按鈕來初始化節點。確保use_sim time設定為False，因為我們想要使用系統時間而不是來自 Gazebo 的時間來模擬時間
+```
+ros2 launch nav2_bringup bringup_launch.py use_sim_time:=False autostart:=False map:=/path/to/your-map.yaml
+```
+##### 注意：不要忘記將/path/to/your-map.yaml更改為 your-map.yaml 檔案的實際路徑。
+#### 3.啟動 RVIZ：
+##### 使用預先定義的設定檔啟動 RVIZ。
+```
+ros2 run rviz2 rviz2 -d $(ros2 pkg prefix nav2_bringup)/share/nav2_bringup/rviz/nav2_default_view.rviz
+```
+##### 現在，您應該在 Rviz 的繪圖中心看到 Turtlebot3 機器人模型的影子。如果將 auto_start 參數設為 false，請按一下「開始」按鈕（左下角）。然後，地圖應出現在 RViz 中。
+#### 4.初始化 Turtlebot3 的位置：
+##### 首先，找到機器人在地圖上的位置。檢查你的機器人在房間裡的位置。在 RViz 中設置機器人的位姿。點擊 2D Pose Estimate 按鈕並在地圖上指出機器人的位置。綠色箭頭的方向是Turtlebot 的方向。
 
